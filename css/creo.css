@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezadoCA{
+    width: 100%;
+    background: radial-gradient(rgba(158, 68, 16, 0.616), rgba(255, 255, 0, 0.219), rgb(212, 172, 61));
+    height: 56px;
+   
+    box-shadow: 10px 5px 5px black;
+}
+
+.contenedor_CA{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+
+    height: 100%;
+    width: 100%;
+ 
+}
+.contenedor_CA .home{
+    font-size: 20px;
+    font-weight:900;
+    font-family:fantasy;
+    
+}
+
+.contenedor_CA .socialesCA a{
+    padding-left: 15px;
+}
+
+.whasCA{
+    color: rgb(51, 95, 6);
+    font-size: 30px;  
+}
+
+.facebCA{
+    color: darkblue;
+    font-size: 30px;
+}
+
+.instagCA{
+    color: rgba(207, 13, 13, 0.616);
+    font-size: 30px;
+}
+
+.tituloCA{
+    padding: 20px;
+    text-align: center;
+    color: rgba(87, 34, 8, 0.966);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bodyCA{
+    background: rgb(209, 196, 173);
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+}
+
+.paises{
+    margin-left: 50px;
+}
+
+.contenidoTexto{
+    margin-top: 20px;
+}
+

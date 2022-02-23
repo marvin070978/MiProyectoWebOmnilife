@@ -1,0 +1,509 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+
+}
+
+.header1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body{
+    background-color: rgba(247, 247, 217, 0.459);
+}
+
+.contenedorDI{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.contDI{
+    background: radial-gradient(rgba(158, 68, 16, 0.616), rgba(255, 255, 0, 0.219), rgb(212, 172, 61));
+    height: 60px;
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.contenedor-social{
+    font-size: 35px;
+    
+}
+
+.homeDI{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+}
+
+.contHome{
+   color: rgb(61, 42, 6);
+}
+
+.casaH{
+    color: rgba(61, 13, 105, 0.89);
+}
+
+.whatsap{
+    color: green;
+}
+
+.instagram{
+    color: brown;
+}
+
+.invita{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.txtEmpresario{
+    background: radial-gradient(rgba(197, 108, 35, 0.479), rgba(49, 49, 13, 0.219), rgb(53, 40, 5));
+    color: rgb(41, 41, 4);
+    font-size: 30px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-weight: 800;
+    padding: 20px;
+    
+}
+
+.txtEmpresario .parConviertete{
+    text-align: center;
+    font-size: 30px;
+
+}
+.contenedorDI .imgParrafo{
+    width: 100%; 
+    
+}
+
+.imgDI{
+    width: 90%;
+    height: 100%;
+    border: 2px solid rgb(230, 224, 224);
+    border-radius: 10%;
+    display:block;   
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.parrafosEmpresarios p{
+
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.contenedor-DI{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-row-gap: 20px;
+      
+}
+
+.tituloH2{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    
+}
+
+.contenedor-parrafoDos{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+}
+
+.colorFa{
+    color: rgba(245, 239, 240, 0.767);
+    background-color: rgba(119, 5, 5, 0.856);
+    border-radius: 50%;
+}
+.contParrafo1 li, .contParrafo2 li{
+   padding-top: 20px;
+   padding-left: 20px;
+   font-size: 20px;
+   font-weight: 500;  
+}
+
+.contParrafo1 li, .contParrafo2 li{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;  
+ }
+
+ .adquirirM
+ { 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    margin-left: 20px;
+  }
+
+.viveLaExp{
+    background: radial-gradient(rgba(211, 136, 82, 0.883), rgba(214, 214, 175, 0.294), rgba(216, 185, 113, 0.918));
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Conteido-imgEmpresario{
+    width: 100%;
+    text-align: center;
+    
+
+  }
+ video{
+    width: 90%;
+    padding-bottom: 30px;
+    
+ }
+
+ .conPais{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+ .cont-pais-figura{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 40px;
+
+  }
+  .imgPais1{
+    width: 100%;
+    max-width: 100%;
+ }
+ .NomPais{
+     font-size: 30px;
+     text-align: center;
+     margin: auto;
+     padding: 0;
+     font-weight: 700;
+ }
+
+ .tituloH2UE{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    background-color: bisque;
+    margin-bottom: 30px;
+ }
+
+ .consultaME{
+    width: 100%;
+    height: 250px;
+    background: radial-gradient(rgba(211, 136, 82, 0.883), rgba(214, 214, 175, 0.294), rgba(216, 185, 113, 0.918));
+    
+}
+
+.MiCononer{
+    color: green;
+    font-size: 30px;
+    align-items: center;
+}
+
+
+.btn3{
+    
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 0.4rem;
+  background: linear-gradient(70deg, rgb(189, 164, 164), rgb(221, 240, 205));
+  font-size: 1rem;
+  color: rgb(34, 37, 37);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.5);
+  transition: all 0.4seg linear;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+    
+    
+  }
+
+  .boton3:hover{
+      transform: scale(1.1);
+      color: brown;
+      font-weight: 900;
+  }
+
+  .botonCOMNILIFE{
+    text-align: center;
+}
+
+.conoceOmnilife{
+    background: radial-gradient(rgba(211, 136, 82, 0.883), rgba(214, 214, 175, 0.294), rgba(216, 185, 113, 0.918));
+
+    height: 230px;
+
+    
+  }
+
+  .parrafosEmpresarios h2{
+      text-align: center;
+      font-size: 30px;
+      margin: 10px;
+  }
+
+  .parrafosEmpresarios{
+      margin-top: 60px;
+  }
+
+
+ /****************Media query*********************************/
+
+
+
+ @media only screen and (max-width: 768px) and (min-width: 380px){
+
+    .contenedor-DI
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+          
+    }
+
+    .imgDI
+    {
+        width: 80%;
+        border: 2px solid rgb(230, 224, 224);
+        border-radius: 10%;  
+    }
+
+    
+
+    .tituloH2
+    {
+        text-align: center;
+        font-size: 25px;
+        padding: 20px;
+        
+    }
+
+    .contenedor-parrafoDos
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 30px;
+        text-align: justify;
+    }
+
+    .contParrafo1 li, .contParrafo2 li
+    {
+        padding-top: 20px;
+        font-size: 20px;
+        font-weight: 600;  
+     }
+  
+  
+
+  .conoceOmnilife{
+    background: radial-gradient(rgba(211, 136, 82, 0.883), rgba(214, 214, 175, 0.294), rgba(216, 185, 113, 0.918));
+
+    height: 260px;
+
+    
+  }
+
+  
+
+  .adquirirM{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+    padding: 30px;
+  }
+
+
+ video{
+    width: 90% ;   
+    padding-bottom: 30px;
+    margin: 30px;
+ }
+
+ 
+.txtEmpresario .parConviertete{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.conPais{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cont-pais-figura{
+   width: 80%;
+   margin: auto;
+   padding-bottom: 40px;
+
+ }
+ .imgPais1{
+   width: 100%;
+   
+}
+.NomPais{
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-weight: 700;
+}
+
+.tituloH2UE{
+   text-align: center;
+   font-size: 35px;
+   padding: 20px;
+   background-color: bisque;
+   margin-bottom: 30px;
+}
+
+
+
+
+ }
+
+@media only screen and (max-width: 1800px) and (min-width: 780px)
+{
+ 
+    .contenedor-DI
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, auto);
+        grid-column-gap: 20px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+      
+          
+    }
+
+    .imgDI
+    {
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(230, 224, 224);
+        border-radius: 10%;
+        margin-left: 20px;
+        
+    }
+
+    .parrafosEmpresarios p
+    {
+
+        padding: 30px;
+        text-align: justify;
+        font-size: 25px;
+        font-weight: 700;
+    
+    }
+
+    .tituloH2
+    {
+        text-align: center;
+        font-size: 35px;
+        padding: 20px;
+        
+    }
+
+    .contenedor-parrafoDos
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        margin-left: 20px;
+        
+    }
+
+    .contParrafo1 li, .contParrafo2 li
+    {
+        padding-top: 20px;
+        padding-left: 20px;
+        font-size: 25px;
+        font-weight: 600;  
+     }
+  
+  
+
+  .conoceOmnilife{
+    background: radial-gradient(rgba(211, 136, 82, 0.883), rgba(214, 214, 175, 0.294), rgba(216, 185, 113, 0.918));
+
+    height: 230px;
+
+    
+  }
+
+  
+
+  .adquirirM{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+  }
+
+  .Conteido-imgEmpresario{
+    width: 100%;
+    text-align: center;
+    
+
+  }
+ video{
+    width: 100%;
+    padding-bottom: 30px;
+    
+ }
+
+ .Conteido-imgEmpresario{
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+ video{
+    width: 90% ;   
+    padding-bottom: 30px;
+    margin: 30px;
+ }
+
+ 
+.txtEmpresario .parConviertete{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+/******/
+
+
+}

@@ -1,0 +1,65 @@
+/**************************PAGINA PRINCIPAL************************/
+.inicio{
+    background: url(/img/fondo3.jpg) no-repeat;
+    background-size:100% 100%;
+    background-position: 100%;
+    object-fit: fill;
+    padding-top: 113px;
+}
+
+.contenedor_inicio{
+   
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-auto-rows: minmax(250px, auto-fit);
+   grid-column-gap: 30px;
+   grid-row-gap: 20px;
+   padding: 30px;
+   grid-auto-flow: dense; 
+   
+}
+
+.inicio .contenedor_inicio h2{
+    padding: 10px;
+    font-size: calc(1.9vw + 10px);
+    
+}
+
+/*.inicio .contenedor_inicio h5{
+    
+    font-size: calc(0.7vw + 10px);
+    
+}*/
+
+.inicio .contenedor_inicio .texto-inicio{
+    text-align: left
+}
+
+.inicio .contenedor_inicio h1, h3, a{
+    color: rgb(19, 3, 3);
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/*@media(min-width: 400px){
+    .inicio .contenedor_inicio h2{
+        padding: 10px;
+        font-size: calc(1.9vw + 8px);
+        
+    }
+
+    .nutricion{
+        
+        background: rgb(196, 62, 62);
+     }
+    
+}*/
+
+
+
+
+
+
+
+
+

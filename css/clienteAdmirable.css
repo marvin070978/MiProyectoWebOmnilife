@@ -1,0 +1,196 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    border: none;
+  
+  }
+  
+  .header1{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+  }
+  
+  body{
+      background-color: rgba(247, 247, 217, 0.459);
+  }
+  
+  .contenedorDI{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-content: center;
+      justify-items: center;
+      align-items: center;
+  
+  }
+  
+  .contDI{
+      background: radial-gradient(rgba(158, 68, 16, 0.616), rgba(255, 255, 0, 0.219), rgb(212, 172, 61));
+      height: 60px;
+      box-shadow: 10px 5px 5px black;
+      
+  }
+  
+  .contenedor-social{
+      font-size: 35px;
+      
+  }
+  
+  .homeDI{
+      font-size: 25px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+  }
+  
+  .contHome{
+     color: rgb(61, 42, 6);
+  }
+  
+  .casaH{
+      color: rgba(61, 13, 105, 0.89);
+  }
+  
+  .whatsap{
+      color: green;
+  }
+  
+  .instagram{
+      color: brown;
+  }
+
+  .parrafosAdmirable{
+    margin-top: 60px;
+}
+
+.titulosAdmirable{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    background-color: bisque;
+    margin-bottom: 20px;
+ }
+
+ .tituloH2UE{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    background-color: bisque;
+    margin-bottom: 30px;
+ }
+
+ .parrafosAdmirable p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px;
+    font-weight: 600;
+ }
+
+ .conPais{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.cont-pais-figura{
+   width: 80%;
+   margin: auto;
+   padding-bottom: 40px;
+
+ }
+ .imgPais1{
+   width: 100%;
+   max-width: 100%;
+}
+.NomPais{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    font-weight: 700;
+}
+
+.videoParrafo{
+    width: 100%;
+    text-align: center;
+    
+
+  }
+ video{
+    width: 90%;
+    padding-bottom: 30px;
+    
+ }
+
+ .colorFa{
+    color: rgba(245, 239, 240, 0.767);
+    background-color: rgba(119, 5, 5, 0.856);
+    border-radius: 50%;
+}
+
+.beneficios li, .incribirse li{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;  
+ }
+
+ .miBoton{
+    margin-top: 1rem;
+    border-radius: 0.6rem;
+    background: radial-gradient(rgba(235, 228, 223, 0.479), rgba(204, 204, 118, 0.219), rgb(189, 184, 172));
+    color: rgb(24, 24, 20);
+    font-size: 1rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: .3rem 0.3rem rgba(204, 154, 47, 0.5);
+    transition: all 0.4seg linear;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 20px;
+ }
+
+ .clienAdmiWhatssap{
+     background-color: antiquewhite;
+     height: 150px;
+     text-align: center;
+     font-size: 30px;
+     padding: 20px;
+ }
+
+ .miBoton:hover{
+    transform: scale(1.1);
+    color: brown;
+    font-weight: 900;
+ }
+
+ .MiCononer1{
+    color: green;
+    font-size: 30px;
+    align-items: center;
+}
+
+ /******************MEDIA QUERY*********************/
+
+ @media only screen and (max-width: 1800px) and (min-width: 780px)
+{
+ 
+    
+ video{
+    width: 90% ;   padding-bottom: 30px;
+    margin: 30px;
+ }
+
+ .conPais{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+}
+
+  

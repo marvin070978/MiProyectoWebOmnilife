@@ -1,0 +1,36 @@
+.testimonio{
+   padding-top: 113px;
+   background:linear-gradient(0.25turn, #4b0b41, #d1f3555b, rgb(51, 5, 34));
+}
+
+.contenedor-testimonio{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(3, auto);
+   grid-row-gap: 30px;
+   padding: 0 20px;
+   
+}
+
+.caja-testimonio{
+   width: 95%;
+   margin: auto;
+   text-align: center;
+}
+
+video{
+   width: 100%;
+   padding-bottom: 30px;
+   max-width: 100%;
+}
+
+.Mititulo {
+   text-align: center;
+   background-color: rgb(56, 3, 61);
+   background-clip: text;
+   color: transparent;
+   font-size: 2rem;
+   text-transform: uppercase;
+   padding-bottom: 2px;
+   
+ }

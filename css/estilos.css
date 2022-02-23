@@ -1,0 +1,443 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url(/css/inicio.css);
+@import url(/css/nutriomnilife.css);
+@import url(/css/encabezado.css);
+@import url(/css/testimonios.css);
+@import url(/css/seytu.css);
+@import url(/css/siscv.css);
+@import url(/css/quienesSomos.css);
+@import url(/css/contacto.css);
+@import url(/css/clienteAdmirable.css);
+@import url(/css/DistribuidorIndependiente.css);
+@import url(/css/redDistribuidor.css);
+@import url(/css/creo.css);
+@import url(/css/cedis.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+ 
+ 
+}
+
+img{
+    width: 90%;
+   /* margin-left: 15px;*/
+    
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 0.4rem;
+  background: linear-gradient(70deg, rgb(189, 164, 164), rgb(221, 240, 205));
+  font-size: 1rem;
+  color: rgb(34, 37, 37);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 0.5rem rgba(0, 0, 0, 0.5);
+  transition: all 0.4seg linear;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+/****************************MEDIAS QUERY***********************************/
+
+@media only screen and (max-width: 768px) and (min-width: 380px){
+
+    .header .menu {
+        position: absolute;
+        top: 85px;
+        right: -100%;
+        display: grid;
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: repeat(6,70px); 
+        text-align: center;
+        background:linear-gradient(0.25turn, #d1a732, #f1f0e9, #53959e);
+        transition: 1s;
+    }
+
+    .header .menu a{
+        color: rgb(24, 22, 22);
+    }
+
+    .header .burger{
+        display: block;
+    }
+
+    .header .barra-contenedor{
+        display: grid;
+        grid-template-rows: repeat(1,auto);
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: 30px;
+        margin-left: 8px;
+        margin-top: -15px;
+    }
+
+    /************TESTIMONIO*********************/
+    .contenedor-testimonio{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 30px;
+        padding: 0 20px;
+        
+     }
+
+    /*******************SISTEMA CARDIOVASCULAR**********/
+
+    .contenedor-sisCV{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-row-gap: 30px;
+        padding: 20px 25px;
+ 
+    }
+
+    .sisCV .contenedor-sisCV img{
+        width: 100%;  
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .sisCV .contenedor-sisCV p{
+        font-size: 20px;
+        text-align:justify;
+        padding: 0 20px;
+    }
+
+    .contacto{
+        text-align: center;
+    }
+
+    /*************************QUIENES SOMOS*******************/
+    .contenedor-nosotros{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+        grid-row-gap: 30px;
+        grid-column-gap: 20px;
+        padding: 20px 30px;
+    }
+
+    /**************CONTACTAME*********************/
+    
+    .contenedor-contacto{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+    
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    
+        padding: 0 30px;
+        
+        
+        
+    }
+    
+    .recuerda{
+        border: 2px solid blanchedalmond;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 25px;
+        font-family:serif;
+        background-color: cornsilk;
+        /*box-shadow: 20px 10px darkgoldenrod;*/
+        font-weight:900;
+        width: 100%;  
+       
+    }
+    
+    .contenedor-contacto .mimagen1{
+       /* background-color: rgba(247, 246, 246, 0.445);*/
+       /* text-align: center;*/
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+       
+    }
+    
+    .dividir{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        height: 100%;
+        
+    }
+    
+    
+    
+    .whas1{
+        color: rgb(51, 95, 6);
+        font-size: 40px;  
+    }
+    
+    .faceb1{
+        color: darkblue;
+        font-size: 40px;
+    }
+    
+    .instag1{
+        color: rgba(207, 13, 13, 0.616);
+        font-size: 40px;
+    }
+    
+    .carritoCompra1{
+        color: rgba(105, 90, 8, 0.842);
+        font-size: 40px;
+    }
+    
+    .codigo{
+        font-size: 30px;
+        color: darkmagenta;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px){
+
+    
+
+    .header .burger{
+        display: none;
+        
+    }
+
+    .header .barra-contenedor{
+        display: grid;
+        grid-template-rows: repeat(2,auto);
+        grid-template-columns: repeat(1, auto);
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        grid-row-gap: 0;
+        margin-top: -10px;
+    
+    }
+
+    .header .logo{
+        text-align: center;
+    
+    }
+
+    .inicio .contenedor_inicio h2{
+        
+        font-size: calc(1.2vw + 9px);
+        
+    }
+
+    .header .menu a{
+        border-right: 1.5px solid rgb(185, 24, 24);
+        border-left: 2px dotted rgb(194, 24, 137);
+        
+    }
+
+    /*******************SISTEMA CARDIOVASCULAR**********/
+
+    .contenedor-sisCV{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        grid-row-gap: 30px;
+        padding: 20px 50px;
+ 
+    }
+
+    .sisCV .contenedor-sisCV img{
+        width: 100%;  
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .sisCV .contenedor-sisCV p{
+        font-size: 20px;
+        text-align:justify;
+        padding: 0 20px;
+    }
+
+    .contacto{
+        text-align: center;
+    }
+     /***********************TESTIMONIO*******************************/
+     .contenedor-testimonio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        
+        
+    }
+   /**************CONTACTAME*********************/
+    .contenedor-contacto{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        padding: 0px 30px;
+        width: 100%;
+    }
+    .contacto{
+        height: 100vw;
+    }
+
+    .whas1{
+        color: rgb(51, 95, 6);
+        font-size: 30px;  
+    }
+    
+    .faceb1{
+        color: darkblue;
+        font-size: 30px;
+    }
+    
+    .instag1{
+        color: rgba(207, 13, 13, 0.616);
+        font-size: 30px;
+    }
+    
+    .carritoCompra1{
+        color: rgba(105, 90, 8, 0.842);
+        font-size: 30px;
+    }
+    
+    .codigo{
+        font-size: 20px;
+        color: darkmagenta;
+    }
+
+    .dividir{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-column-gap: 35px;
+    }
+
+    
+.recuerda{
+    
+    font-size: 20px;
+    text-align: center;
+    
+   
+}
+
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px){
+
+    .header .burger{
+        display: none;
+        
+    }
+
+    .header .barra-contenedor{
+        display: grid;
+        grid-template-rows: repeat(1,auto);
+        grid-template-columns: repeat(2, auto);
+        justify-content:space-between;
+        align-content: center;
+        align-items: center;
+    
+    }
+
+    /*******************SISTEMA CARDIOVASCULAR**********/
+
+    .contenedor-sisCV{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 30px;
+        grid-column-gap: 20px;
+        padding: 20px 30px;
+ 
+    }
+
+    .sisCV .contenedor-sisCV img{
+        width: 100%;  
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    .sisCV .contenedor-sisCV p{
+        font-size: 20px;
+        text-align:justify;
+        padding: 0 20px;
+    }
+
+    .contacto{
+        text-align: center;
+    }
+
+    .burger img{
+        display: none;
+    }
+
+    /***********************TESTIMONIO*******************************/
+    .contenedor-testimonio{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-row-gap: 30px;
+        padding: 0 20px;
+        
+    }
+
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 958px) and (min-width: 590px) {  
+
+     .inicio .contenedor_inicio h2{
+        font-size: calc(1.2vw + 9px);
+        
+    }
+    .inicio .contenedor_inicio h5{
+        font-size: calc(0.5vw + 8px);
+        
+    }
+
+     
+}  
+
+@media only screen and (max-width: 1800px) and (min-width: 1000px) {  
+
+     .header .burger{
+    display: none;
+}
+}  
+
+
+
+
+
