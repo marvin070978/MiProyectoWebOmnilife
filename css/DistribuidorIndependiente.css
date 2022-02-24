@@ -254,6 +254,8 @@ body{
 
   .botonCOMNILIFE{
     text-align: center;
+    
+    
 }
 
 .conoceOmnilife{
@@ -326,10 +328,16 @@ body{
   .conoceOmnilife{
     background: radial-gradient(rgba(211, 136, 82, 0.883), rgba(214, 214, 175, 0.294), rgba(216, 185, 113, 0.918));
 
-    height: 260px;
+    height: 300px;
 
     
   }
+
+  .botonCOMNILIFE{
+    text-align: center;
+    width: 100%;
+    
+}
 
   
 
@@ -344,7 +352,7 @@ body{
  video{
     width: 90% ;   
     padding-bottom: 30px;
-    margin: 30px;
+    
  }
 
  
@@ -385,7 +393,10 @@ body{
    margin-bottom: 30px;
 }
 
-
+.Conteido-imgEmpresario{
+  width: 100%;
+  text-align: center;
+}
 
 
  }

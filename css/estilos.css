@@ -67,7 +67,8 @@ img{
 
 /****************************MEDIAS QUERY***********************************/
 
-@media only screen and (max-width: 768px) and (min-width: 380px){
+@media only screen and (max-width: 768px) and (min-width: 380px)
+{
 
     .header .menu {
         position: absolute;
@@ -108,7 +109,37 @@ img{
         
      }
 
+     .caja-testimonio{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+     }
+     
+     video{
+        width: 100%;
+        
+        
+     }
+     
+     .Mititulo {
+      
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 800;
+        text-transform: uppercase;
+        
+        
+      }
+
     /*******************SISTEMA CARDIOVASCULAR**********/
+
+    .contenedor_CV{
+        
+       text-align: center;
+       align-content: center;
+       align-items: center;
+     
+    }
 
     .contenedor-sisCV{
         display: grid;
@@ -135,6 +166,30 @@ img{
         text-align: center;
     }
 
+    
+    .whas{
+        color: rgb(51, 95, 6);
+        font-size: 25px;
+        
+        
+    }
+    
+    .faceb{
+        color: darkblue;
+        font-size: 25px;
+    }
+    
+    .instag{
+        color: rgba(207, 13, 13, 0.616);
+        font-size: 25px;
+    }
+
+    .carritoCompra{
+        color: rgba(41, 3, 36, 0.63);
+        font-size: 25px;
+    }
+    
+
     /*************************QUIENES SOMOS*******************/
     .contenedor-nosotros{
         display: grid;
@@ -147,20 +202,14 @@ img{
 
     /**************CONTACTAME*********************/
     
+    .contacto{
+        height: 100%;
+    }
     .contenedor-contacto{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 30px;
-    
-        justify-content: center;
-        justify-items: center;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-    
-        padding: 0 30px;
-        
-        
+
         
     }
     
@@ -199,26 +248,26 @@ img{
     
     .whas1{
         color: rgb(51, 95, 6);
-        font-size: 40px;  
+        font-size: 35px;  
     }
     
     .faceb1{
         color: darkblue;
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .instag1{
         color: rgba(207, 13, 13, 0.616);
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .carritoCompra1{
         color: rgba(105, 90, 8, 0.842);
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .codigo{
-        font-size: 30px;
+        font-size: 25px;
         color: darkmagenta;
     }
     
@@ -340,15 +389,14 @@ img{
         grid-column-gap: 35px;
     }
 
+
+    .recuerda p{
     
-.recuerda{
-    
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     
    
-}
-
+   }
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 1000px){
