@@ -34,11 +34,9 @@
 }
 
 .titulos1{
-    text-align: center;
-    background-color: rgb(26, 3, 3);
-    background-clip: text;
-    color: transparent;
-    font-size: 2rem;
-    text-transform: uppercase;
-    padding-bottom: 2px;
+    padding: 20px;
+   text-align: center;
+   color: rgba(44, 18, 5, 0.966);
+   font-size: 30px;
+   font-weight: 700;
 }
