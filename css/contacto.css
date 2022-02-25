@@ -89,5 +89,36 @@
     color: darkmagenta;
 }
 
+.paginaOmnilefe{
+    background-color: rgba(29, 17, 2, 0.904);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
 
+.btnPagina {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    background: linear-gradient(70deg, rgb(43, 4, 4), rgb(17, 4, 2));
+    font-size: 1rem;
+    color: rgb(197, 201, 201);
+    border: 2px solid wheat;
+    font-weight: 800;
+    cursor: pointer;
+    /*box-shadow: 0 0.5rem rgba(0, 0, 0, 0.5);*/
+    transition: all 0.4seg linear;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+
+.btnPagina:hover {
+    transform: scale(1.1);
+}
 
